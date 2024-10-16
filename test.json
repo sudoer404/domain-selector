@@ -1,0 +1,989 @@
+{
+    "cse": {
+        "domains": {
+            "Artificial Intelligence": {
+                "roadmap": [
+                    "Study the fundamentals of AI and machine learning.",
+                    "Learn about algorithms and data structures.",
+                    "Explore neural networks and deep learning.",
+                    "Work on AI projects and applications."
+                ],
+                "reference": "https://www.coursera.org/specializations/ai"
+            },
+            "Machine Learning": {
+                "roadmap": [
+                    "Master Python and libraries like NumPy and Pandas.",
+                    "Learn supervised and unsupervised learning techniques.",
+                    "Understand overfitting, underfitting, and model evaluation.",
+                    "Implement machine learning algorithms in projects."
+                ],
+                "reference": "https://www.coursera.org/learn/machine-learning"
+            },
+            "Data Science": {
+                "roadmap": [
+                    "Learn Python or R for data analysis.",
+                    "Understand statistics and data visualization.",
+                    "Explore machine learning algorithms.",
+                    "Work on real-world data science projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/jhu-data-science"
+            },
+            "Deep Learning": {
+                "roadmap": [
+                    "Understand the architecture of deep neural networks.",
+                    "Learn about CNNs, RNNs, and GANs.",
+                    "Explore applications of deep learning in vision and language.",
+                    "Work on deep learning projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/deep-learning"
+            },
+            "Natural Language Processing": {
+                "roadmap": [
+                    "Study text processing and NLP fundamentals.",
+                    "Learn about sentiment analysis and language models.",
+                    "Explore machine translation and chatbots.",
+                    "Work on NLP projects."
+                ],
+                "reference": "https://www.coursera.org/learn/natural-language-processing"
+            },
+            "Computer Vision": {
+                "roadmap": [
+                    "Learn about image processing techniques.",
+                    "Study object detection and recognition.",
+                    "Explore convolutional neural networks.",
+                    "Work on computer vision projects."
+                ],
+                "reference": "https://www.coursera.org/learn/computer-vision"
+            },
+            "Web Development": {
+                "roadmap": [
+                    "Learn HTML, CSS, and JavaScript basics.",
+                    "Understand front-end frameworks like React or Angular.",
+                    "Explore back-end technologies such as Node.js or Django.",
+                    "Build full-stack applications."
+                ],
+                "reference": "https://www.freecodecamp.org/"
+            },
+            "Mobile App Development": {
+                "roadmap": [
+                    "Learn Swift for iOS or Kotlin for Android.",
+                    "Understand mobile UI/UX design principles.",
+                    "Explore cross-platform frameworks (React Native, Flutter).",
+                    "Publish apps to App Store/Google Play."
+                ],
+                "reference": "https://developer.apple.com/swift/"
+            },
+            "Cybersecurity": {
+                "roadmap": [
+                    "Understand networking fundamentals.",
+                    "Learn about security principles and cryptography.",
+                    "Familiarize yourself with ethical hacking tools.",
+                    "Engage in Capture The Flag (CTF) competitions."
+                ],
+                "reference": "https://www.cybrary.it/course/compTIA-security-plus/"
+            },
+            "Cloud Computing": {
+                "roadmap": [
+                    "Understand cloud fundamentals (IaaS, PaaS, SaaS).",
+                    "Get familiar with major providers (AWS, Azure, GCP).",
+                    "Learn about cloud architecture and services.",
+                    "Work on cloud deployment projects."
+                ],
+                "reference": "https://aws.amazon.com/training/"
+            },
+            "Internet of Things (IoT)": {
+                "roadmap": [
+                    "Learn about embedded systems and microcontrollers.",
+                    "Study networking protocols (MQTT, HTTP).",
+                    "Explore cloud services for IoT.",
+                    "Work on IoT projects."
+                ],
+                "reference": "https://www.edx.org/professional-certificate/iot-embedded-systems-and-sensor-devices"
+            },
+            "Human-Computer Interaction": {
+                "roadmap": [
+                    "Study usability and user experience principles.",
+                    "Learn design thinking methodologies.",
+                    "Explore interaction design and prototyping tools.",
+                    "Conduct usability testing."
+                ],
+                "reference": "https://www.coursera.org/learn/human-computer-interaction"
+            },
+            "Software Engineering": {
+                "roadmap": [
+                    "Learn programming languages (Java, C#, etc.).",
+                    "Understand software development methodologies (Agile, Scrum).",
+                    "Master version control systems (Git).",
+                    "Study design patterns and software architecture."
+                ],
+                "reference": "https://www.udacity.com/course/software-development-process--ud805"
+            },
+            "Blockchain Technology": {
+                "roadmap": [
+                    "Understand the fundamentals of blockchain technology.",
+                    "Learn about cryptocurrencies and smart contracts.",
+                    "Explore decentralized applications (DApps).",
+                    "Work on blockchain projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/blockchain"
+            },
+            "Database Management Systems": {
+                "roadmap": [
+                    "Learn SQL and database design.",
+                    "Understand normalization and indexing.",
+                    "Explore NoSQL databases (MongoDB, Cassandra).",
+                    "Work on database projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/sql"
+            },
+            "Networking": {
+                "roadmap": [
+                    "Study networking fundamentals and protocols.",
+                    "Learn about routing and switching.",
+                    "Explore network security principles.",
+                    "Work on network configuration projects."
+                ],
+                "reference": "https://www.coursera.org/learn/computer-networking"
+            },
+            "Distributed Systems": {
+                "roadmap": [
+                    "Understand the principles of distributed computing.",
+                    "Learn about consistency models and CAP theorem.",
+                    "Explore distributed databases and microservices.",
+                    "Work on distributed systems projects."
+                ],
+                "reference": "https://www.coursera.org/learn/distributed-systems"
+            },
+            "Robotics": {
+                "roadmap": [
+                    "Study the basics of robotics and kinematics.",
+                    "Learn about sensors and actuators.",
+                    "Explore robot programming and simulation.",
+                    "Work on robotics projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/robotics"
+            },
+            "Augmented Reality and Virtual Reality": {
+                "roadmap": [
+                    "Understand the fundamentals of AR and VR.",
+                    "Learn about 3D modeling and graphics.",
+                    "Explore AR/VR development tools (Unity, Unreal Engine).",
+                    "Create AR/VR applications."
+                ],
+                "reference": "https://www.coursera.org/specializations/ar-vr"
+            }
+        }
+    },
+    "mech": {
+        "domains": {
+            "Thermodynamics": {
+                "roadmap": [
+                    "Study the laws of thermodynamics.",
+                    "Learn about heat transfer and energy conversion.",
+                    "Explore thermodynamic cycles and processes.",
+                    "Work on thermodynamics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/thermodynamics"
+            },
+            "Fluid Mechanics": {
+                "roadmap": [
+                    "Understand the principles of fluid statics and dynamics.",
+                    "Study flow behavior in pipes and ducts.",
+                    "Explore applications in hydraulic systems.",
+                    "Work on fluid mechanics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/fluid-mechanics"
+            },
+            "Mechanical Design": {
+                "roadmap": [
+                    "Learn the fundamentals of mechanical design.",
+                    "Study materials and stress analysis.",
+                    "Explore design for manufacturability and assembly.",
+                    "Work on mechanical design projects."
+                ],
+                "reference": "https://www.coursera.org/learn/mechanical-design"
+            },
+            "Manufacturing Processes": {
+                "roadmap": [
+                    "Understand various manufacturing techniques.",
+                    "Learn about machining, welding, and casting.",
+                    "Explore quality control and process optimization.",
+                    "Work on manufacturing projects."
+                ],
+                "reference": "https://www.coursera.org/learn/manufacturing-processes"
+            },
+            "Kinematics and Dynamics": {
+                "roadmap": [
+                    "Study the motion of bodies and systems.",
+                    "Learn about mechanisms and machine design.",
+                    "Explore dynamic analysis and vibration.",
+                    "Work on kinematics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/kinematics-dynamics"
+            },
+            "Heat Transfer": {
+                "roadmap": [
+                    "Understand conduction, convection, and radiation.",
+                    "Study heat exchangers and thermal systems.",
+                    "Explore numerical methods for heat transfer analysis.",
+                    "Work on heat transfer projects."
+                ],
+                "reference": "https://www.coursera.org/learn/heat-transfer"
+            },
+            "Control Systems": {
+                "roadmap": [
+                    "Learn about control theory and system dynamics.",
+                    "Study feedback control and stability analysis.",
+                    "Explore PID control and system response.",
+                    "Work on control systems projects."
+                ],
+                "reference": "https://www.coursera.org/learn/control-systems"
+            },
+            "Robotics": {
+                "roadmap": [
+                    "Study robot kinematics and dynamics.",
+                    "Learn about sensors and actuators.",
+                    "Explore robot programming and control.",
+                    "Work on robotics projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/robotics"
+            },
+            "Mechatronics": {
+                "roadmap": [
+                    "Understand the integration of mechanical and electronic systems.",
+                    "Learn about sensors, actuators, and control systems.",
+                    "Explore applications in automation and robotics.",
+                    "Work on mechatronics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/mechatronics"
+            },
+            "Materials Science": {
+                "roadmap": [
+                    "Study the properties of materials.",
+                    "Learn about material selection and testing.",
+                    "Explore manufacturing processes and their effects.",
+                    "Work on materials science projects."
+                ],
+                "reference": "https://www.coursera.org/learn/materials-science"
+            },
+            "Automobile Engineering": {
+                "roadmap": [
+                    "Understand automotive systems and components.",
+                    "Study vehicle dynamics and control.",
+                    "Explore powertrains and hybrid technologies.",
+                    "Work on automobile engineering projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/automobile-engineering"
+            },
+            "Vibration Analysis": {
+                "roadmap": [
+                    "Learn about vibrations in mechanical systems.",
+                    "Study modal analysis and damping.",
+                    "Explore applications in machinery and structures.",
+                    "Work on vibration analysis projects."
+                ],
+                "reference": "https://www.coursera.org/learn/vibration-analysis"
+            },
+            "CAD and CAM": {
+                "roadmap": [
+                    "Understand computer-aided design principles.",
+                    "Learn about CAD software tools and applications.",
+                    "Explore computer-aided manufacturing techniques.",
+                    "Work on CAD/CAM projects."
+                ],
+                "reference": "https://www.coursera.org/learn/cad-cam"
+            },
+            "Renewable Energy Systems": {
+                "roadmap": [
+                    "Study various renewable energy sources.",
+                    "Learn about energy conversion technologies.",
+                    "Explore applications in mechanical systems.",
+                    "Work on renewable energy projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/renewable-energy"
+            },
+            "Project Management": {
+                "roadmap": [
+                    "Learn project planning and scheduling techniques.",
+                    "Understand resource allocation and budgeting.",
+                    "Explore risk management in engineering projects.",
+                    "Work on project management projects."
+                ],
+                "reference": "https://www.coursera.org/learn/project-management"
+            },
+            "Biomechanics": {
+                "roadmap": [
+                    "Study the mechanics of biological systems.",
+                    "Learn about motion analysis and modeling.",
+                    "Explore applications in healthcare and sports.",
+                    "Work on biomechanics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/biomechanics"
+            },
+            "Systems Engineering": {
+                "roadmap": [
+                    "Understand the systems engineering process.",
+                    "Learn about requirements analysis and validation.",
+                    "Explore integration and lifecycle management.",
+                    "Work on systems engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/systems-engineering"
+            },
+            "Engineering Ethics": {
+                "roadmap": [
+                    "Study ethical principles in engineering practice.",
+                    "Learn about professional responsibility and decision-making.",
+                    "Explore case studies in engineering ethics.",
+                    "Engage in discussions on ethical dilemmas."
+                ],
+                "reference": "https://www.coursera.org/learn/engineering-ethics"
+            }
+        }
+    },
+    "civil": {
+        "domains": {
+            "Structural Engineering": {
+                "roadmap": [
+                    "Learn the fundamentals of structural analysis.",
+                    "Study the design of concrete and steel structures.",
+                    "Explore load calculations and safety factors.",
+                    "Work on structural engineering projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/structural-engineering"
+            },
+            "Geotechnical Engineering": {
+                "roadmap": [
+                    "Understand soil mechanics and properties.",
+                    "Study foundation design and soil testing.",
+                    "Explore slope stability and retaining structures.",
+                    "Work on geotechnical projects."
+                ],
+                "reference": "https://www.coursera.org/learn/geotechnical-engineering"
+            },
+            "Transportation Engineering": {
+                "roadmap": [
+                    "Learn about transportation systems and planning.",
+                    "Study traffic flow theory and design.",
+                    "Explore highway and pavement design.",
+                    "Work on transportation engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/transportation-engineering"
+            },
+            "Environmental Engineering": {
+                "roadmap": [
+                    "Understand environmental impact assessments.",
+                    "Learn about water and wastewater treatment.",
+                    "Explore air quality management and pollution control.",
+                    "Work on environmental engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/environmental-engineering"
+            },
+            "Construction Management": {
+                "roadmap": [
+                    "Study project management principles.",
+                    "Learn about construction methods and materials.",
+                    "Explore cost estimation and scheduling.",
+                    "Work on construction management projects."
+                ],
+                "reference": "https://www.coursera.org/learn/construction-management"
+            },
+            "Water Resources Engineering": {
+                "roadmap": [
+                    "Understand hydrology and hydraulic engineering.",
+                    "Learn about water supply and distribution systems.",
+                    "Explore flood control and drainage design.",
+                    "Work on water resources projects."
+                ],
+                "reference": "https://www.coursera.org/learn/water-resources-engineering"
+            },
+            "Urban Planning": {
+                "roadmap": [
+                    "Study urban development and land use planning.",
+                    "Learn about zoning laws and regulations.",
+                    "Explore sustainable urban design.",
+                    "Work on urban planning projects."
+                ],
+                "reference": "https://www.coursera.org/learn/urban-planning"
+            },
+            "Materials Engineering": {
+                "roadmap": [
+                    "Understand properties of construction materials.",
+                    "Learn about concrete, steel, and composite materials.",
+                    "Explore testing and quality control methods.",
+                    "Work on materials engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/materials-engineering"
+            },
+            "Surveying": {
+                "roadmap": [
+                    "Study land surveying techniques and instruments.",
+                    "Learn about mapping and geographic information systems (GIS).",
+                    "Explore boundary law and land development.",
+                    "Work on surveying projects."
+                ],
+                "reference": "https://www.coursera.org/learn/surveying"
+            },
+            "Seismic Engineering": {
+                "roadmap": [
+                    "Understand earthquake engineering principles.",
+                    "Study design for seismic resistance.",
+                    "Explore risk assessment and retrofitting techniques.",
+                    "Work on seismic engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/seismic-engineering"
+            },
+            "Coastal Engineering": {
+                "roadmap": [
+                    "Learn about coastal processes and dynamics.",
+                    "Study shoreline management and erosion control.",
+                    "Explore marine structures and port design.",
+                    "Work on coastal engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/coastal-engineering"
+            },
+            "Construction Safety": {
+                "roadmap": [
+                    "Understand construction safety regulations.",
+                    "Learn about hazard identification and risk management.",
+                    "Explore safety training and equipment.",
+                    "Work on safety management projects."
+                ],
+                "reference": "https://www.coursera.org/learn/construction-safety"
+            },
+            "Infrastructure Engineering": {
+                "roadmap": [
+                    "Study the design and maintenance of infrastructure.",
+                    "Learn about road, bridge, and tunnel design.",
+                    "Explore infrastructure project management.",
+                    "Work on infrastructure engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/infrastructure-engineering"
+            },
+            "Building Information Modeling (BIM)": {
+                "roadmap": [
+                    "Understand the principles of BIM.",
+                    "Learn about BIM software and tools.",
+                    "Explore applications of BIM in project management.",
+                    "Work on BIM projects."
+                ],
+                "reference": "https://www.coursera.org/learn/building-information-modeling"
+            },
+            "Sustainable Engineering": {
+                "roadmap": [
+                    "Study principles of sustainable design and construction.",
+                    "Learn about energy efficiency and green materials.",
+                    "Explore lifecycle assessment and sustainable practices.",
+                    "Work on sustainable engineering projects."
+                ],
+                "reference": "https://www.coursera.org/learn/sustainable-engineering"
+            },
+            "Risk Management in Civil Engineering": {
+                "roadmap": [
+                    "Understand risk assessment methods.",
+                    "Learn about project risk management.",
+                    "Explore decision-making under uncertainty.",
+                    "Work on risk management projects."
+                ],
+                "reference": "https://www.coursera.org/learn/risk-management-civil-engineering"
+            },
+            "Building Services Engineering": {
+                "roadmap": [
+                    "Study mechanical and electrical services in buildings.",
+                    "Learn about HVAC, plumbing, and fire safety systems.",
+                    "Explore building automation and energy management.",
+                    "Work on building services projects."
+                ],
+                "reference": "https://www.coursera.org/learn/building-services-engineering"
+            }
+        }
+    },
+    "ai&ds": {
+        "domains": {
+            "Data Science": {
+                "roadmap": [
+                    "Learn Python or R for data analysis.",
+                    "Understand statistics and data visualization.",
+                    "Explore machine learning algorithms.",
+                    "Work on real-world data science projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/jhu-data-science"
+            },
+            "Machine Learning": {
+                "roadmap": [
+                    "Master Python and libraries like NumPy and Pandas.",
+                    "Learn supervised and unsupervised learning techniques.",
+                    "Understand overfitting, underfitting, and model evaluation.",
+                    "Implement machine learning algorithms in projects."
+                ],
+                "reference": "https://www.coursera.org/learn/machine-learning"
+            },
+            "Deep Learning": {
+                "roadmap": [
+                    "Understand the architecture of deep neural networks.",
+                    "Learn about CNNs, RNNs, and GANs.",
+                    "Explore applications of deep learning in vision and language.",
+                    "Work on deep learning projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/deep-learning"
+            },
+            "Natural Language Processing": {
+                "roadmap": [
+                    "Study text processing and NLP fundamentals.",
+                    "Learn about sentiment analysis and language models.",
+                    "Explore machine translation and chatbots.",
+                    "Work on NLP projects."
+                ],
+                "reference": "https://www.coursera.org/learn/natural-language-processing"
+            },
+            "Computer Vision": {
+                "roadmap": [
+                    "Learn about image processing techniques.",
+                    "Study object detection and recognition.",
+                    "Explore convolutional neural networks.",
+                    "Work on computer vision projects."
+                ],
+                "reference": "https://www.coursera.org/learn/computer-vision"
+            },
+            "Reinforcement Learning": {
+                "roadmap": [
+                    "Understand the basics of reinforcement learning.",
+                    "Learn about Markov Decision Processes.",
+                    "Explore Q-learning and policy gradients.",
+                    "Work on reinforcement learning projects."
+                ],
+                "reference": "https://www.coursera.org/learn/reinforcement-learning"
+            },
+            "Time Series Analysis": {
+                "roadmap": [
+                    "Learn about time series data and its components.",
+                    "Study forecasting models (ARIMA, Exponential Smoothing).",
+                    "Explore machine learning for time series.",
+                    "Work on time series analysis projects."
+                ],
+                "reference": "https://www.coursera.org/learn/time-series-analysis"
+            },
+            "Big Data Technologies": {
+                "roadmap": [
+                    "Understand the concepts of big data and its architecture.",
+                    "Learn about Hadoop and Spark frameworks.",
+                    "Explore data processing and storage solutions.",
+                    "Work on big data projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/big-data"
+            },
+            "Data Visualization": {
+                "roadmap": [
+                    "Learn the principles of effective data visualization.",
+                    "Explore tools like Tableau and Power BI.",
+                    "Study data storytelling techniques.",
+                    "Create interactive visualizations."
+                ],
+                "reference": "https://www.coursera.org/specializations/data-visualization"
+            },
+            "Data Engineering": {
+                "roadmap": [
+                    "Learn about data pipelines and ETL processes.",
+                    "Understand data warehousing concepts.",
+                    "Explore data modeling and database design.",
+                    "Work on data engineering projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/data-engineering"
+            },
+            "AI Ethics": {
+                "roadmap": [
+                    "Study the ethical implications of AI.",
+                    "Understand bias and fairness in machine learning.",
+                    "Explore privacy concerns in data usage.",
+                    "Engage in discussions around responsible AI."
+                ],
+                "reference": "https://www.coursera.org/learn/ai-ethics"
+            },
+            "Genetic Algorithms": {
+                "roadmap": [
+                    "Understand the principles of genetic algorithms.",
+                    "Learn about selection, crossover, and mutation.",
+                    "Explore applications of genetic algorithms.",
+                    "Implement genetic algorithms in projects."
+                ],
+                "reference": "https://www.coursera.org/learn/genetic-algorithms"
+            },
+            "Predictive Analytics": {
+                "roadmap": [
+                    "Learn about predictive modeling techniques.",
+                    "Understand regression analysis and classification.",
+                    "Explore ensemble methods and model evaluation.",
+                    "Work on predictive analytics projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/predictive-analytics"
+            },
+            "Image Processing": {
+                "roadmap": [
+                    "Study the fundamentals of image processing.",
+                    "Learn about filters, transformations, and segmentation.",
+                    "Explore image enhancement techniques.",
+                    "Work on image processing projects."
+                ],
+                "reference": "https://www.coursera.org/learn/image-processing"
+            },
+            "Speech Recognition": {
+                "roadmap": [
+                    "Understand the basics of speech processing.",
+                    "Learn about acoustic models and language models.",
+                    "Explore speech recognition algorithms.",
+                    "Work on speech recognition projects."
+                ],
+                "reference": "https://www.coursera.org/learn/speech-recognition"
+            },
+            "Social Network Analysis": {
+                "roadmap": [
+                    "Study the concepts of social networks and graph theory.",
+                    "Learn about network metrics and visualizations.",
+                    "Explore applications of social network analysis.",
+                    "Work on social network analysis projects."
+                ],
+                "reference": "https://www.coursera.org/learn/social-network-analysis"
+            },
+            "AI in Healthcare": {
+                "roadmap": [
+                    "Understand applications of AI in healthcare.",
+                    "Learn about medical data and its challenges.",
+                    "Explore predictive modeling for health outcomes.",
+                    "Work on healthcare AI projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/ai-healthcare"
+            },
+            "AI in Finance": {
+                "roadmap": [
+                    "Study the applications of AI in financial services.",
+                    "Learn about risk assessment and fraud detection.",
+                    "Explore algorithmic trading techniques.",
+                    "Work on finance-related AI projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/ai-finance"
+            }
+        }
+    },
+    "ece": {
+        "domains": {
+            "Embedded Systems": {
+                "roadmap": [
+                    "Study the design and programming of embedded systems.",
+                    "Learn about microcontrollers and peripherals.",
+                    "Explore real-time operating systems.",
+                    "Work on embedded systems projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/embedded-systems"
+            },
+            "Signal Processing": {
+                "roadmap": [
+                    "Understand the fundamentals of signals and systems.",
+                    "Learn about digital signal processing techniques.",
+                    "Explore filtering and spectral analysis.",
+                    "Work on signal processing projects."
+                ],
+                "reference": "https://www.coursera.org/learn/dsp"
+            },
+            "Communication Systems": {
+                "roadmap": [
+                    "Study analog and digital communication techniques.",
+                    "Learn about modulation and demodulation methods.",
+                    "Explore wireless communication standards.",
+                    "Work on communication systems projects."
+                ],
+                "reference": "https://www.coursera.org/learn/communication-systems"
+            },
+            "VLSI Design": {
+                "roadmap": [
+                    "Understand the basics of VLSI technology.",
+                    "Learn about CMOS design and layout.",
+                    "Explore FPGA programming.",
+                    "Work on VLSI projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/vlsi-design"
+            },
+            "Control Systems": {
+                "roadmap": [
+                    "Study the fundamentals of control theory.",
+                    "Learn about feedback systems and stability.",
+                    "Explore PID controllers and state-space analysis.",
+                    "Work on control systems projects."
+                ],
+                "reference": "https://www.coursera.org/learn/control-systems"
+            },
+            "Robotics": {
+                "roadmap": [
+                    "Understand the basics of robotics and kinematics.",
+                    "Learn about sensors and actuators.",
+                    "Explore robot programming and simulation.",
+                    "Work on robotics projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/robotics"
+            },
+            "Microelectronics": {
+                "roadmap": [
+                    "Study semiconductor physics and materials.",
+                    "Learn about diodes, transistors, and ICs.",
+                    "Explore analog and digital circuit design.",
+                    "Work on microelectronics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/microelectronics"
+            },
+            "Wireless Sensor Networks": {
+                "roadmap": [
+                    "Understand the architecture of wireless sensor networks.",
+                    "Learn about communication protocols.",
+                    "Explore sensor deployment and data collection.",
+                    "Work on sensor network projects."
+                ],
+                "reference": "https://www.coursera.org/learn/wireless-sensor-networks"
+            },
+            "Optical Communication": {
+                "roadmap": [
+                    "Study the principles of optical communication systems.",
+                    "Learn about fiber optics and waveguides.",
+                    "Explore modulation techniques and signal processing.",
+                    "Work on optical communication projects."
+                ],
+                "reference": "https://www.coursera.org/learn/optical-communication"
+            },
+            "Internet of Things (IoT)": {
+                "roadmap": [
+                    "Learn about IoT architecture and components.",
+                    "Understand networking protocols (MQTT, HTTP).",
+                    "Explore cloud services for IoT.",
+                    "Work on IoT projects."
+                ],
+                "reference": "https://www.edx.org/professional-certificate/iot-embedded-systems-and-sensor-devices"
+            },
+            "Digital Electronics": {
+                "roadmap": [
+                    "Study binary systems and Boolean algebra.",
+                    "Learn about combinational and sequential circuits.",
+                    "Explore digital logic design using VHDL/Verilog.",
+                    "Work on digital electronics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/digital-systems"
+            },
+            "Mechatronics": {
+                "roadmap": [
+                    "Understand the integration of mechanical and electronic systems.",
+                    "Learn about sensors, actuators, and controllers.",
+                    "Explore robotics and automation.",
+                    "Work on mechatronics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/mechatronics"
+            },
+            "Power Electronics": {
+                "roadmap": [
+                    "Study the principles of power electronics.",
+                    "Learn about converters, inverters, and rectifiers.",
+                    "Explore control systems for power electronics.",
+                    "Work on power electronics projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/power-electronics"
+            },
+            "Embedded AI": {
+                "roadmap": [
+                    "Understand the basics of AI and machine learning.",
+                    "Learn about AI algorithms for embedded systems.",
+                    "Explore sensor fusion and data processing.",
+                    "Work on embedded AI projects."
+                ],
+                "reference": "https://www.coursera.org/learn/embedded-ai"
+            },
+            "Analog Electronics": {
+                "roadmap": [
+                    "Study the principles of analog circuit design.",
+                    "Learn about amplifiers, oscillators, and filters.",
+                    "Explore operational amplifiers and feedback systems.",
+                    "Work on analog electronics projects."
+                ],
+                "reference": "https://www.coursera.org/learn/analog-electronics"
+            },
+            "Smart Grid Technology": {
+                "roadmap": [
+                    "Understand the concepts of smart grid systems.",
+                    "Learn about renewable energy integration.",
+                    "Explore energy management and automation.",
+                    "Work on smart grid projects."
+                ],
+                "reference": "https://www.coursera.org/learn/smart-grid"
+            },
+            "Signal Integrity": {
+                "roadmap": [
+                    "Study the principles of signal integrity in circuits.",
+                    "Learn about transmission lines and impedance matching.",
+                    "Explore noise analysis and mitigation techniques.",
+                    "Work on signal integrity projects."
+                ],
+                "reference": "https://www.coursera.org/learn/signal-integrity"
+            }
+        }
+    },
+    "eee": {
+        "domains": {
+            "Power Systems": {
+                "roadmap": [
+                    "Study the fundamentals of electrical power systems.",
+                    "Learn about generation, transmission, and distribution.",
+                    "Explore load flow analysis and power system stability.",
+                    "Work on power systems projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/power-systems"
+            },
+            "Power Electronics": {
+                "roadmap": [
+                    "Understand the principles of power electronics.",
+                    "Learn about converters, inverters, and rectifiers.",
+                    "Explore applications of power electronics in renewable energy.",
+                    "Work on power electronics projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/power-electronics"
+            },
+            "Electrical Machines": {
+                "roadmap": [
+                    "Study the principles of electrical machines.",
+                    "Learn about transformers, AC and DC machines.",
+                    "Explore machine performance analysis.",
+                    "Work on electrical machines projects."
+                ],
+                "reference": "https://www.coursera.org/learn/electrical-machines"
+            },
+            "Control Systems": {
+                "roadmap": [
+                    "Understand the fundamentals of control theory.",
+                    "Learn about feedback systems and stability.",
+                    "Explore PID control and state-space analysis.",
+                    "Work on control systems projects."
+                ],
+                "reference": "https://www.coursera.org/learn/control-systems"
+            },
+            "Renewable Energy": {
+                "roadmap": [
+                    "Study different renewable energy sources (solar, wind, etc.).",
+                    "Learn about energy conversion technologies.",
+                    "Explore grid integration of renewable energy.",
+                    "Work on renewable energy projects."
+                ],
+                "reference": "https://www.coursera.org/specializations/renewable-energy"
+            },
+            "Digital Signal Processing": {
+                "roadmap": [
+                    "Understand the fundamentals of signals and systems.",
+                    "Learn about discrete-time signals and systems.",
+                    "Explore filter design and spectral analysis.",
+                    "Work on digital signal processing projects."
+                ],
+                "reference": "https://www.coursera.org/learn/dsp"
+            },
+            "Instrumentation": {
+                "roadmap": [
+                    "Study the principles of measurement and instrumentation.",
+                    "Learn about sensors and transducers.",
+                    "Explore data acquisition systems.",
+                    "Work on instrumentation projects."
+                ],
+                "reference": "https://www.coursera.org/learn/instrumentation"
+            },
+            "Smart Grid Technology": {
+                "roadmap": [
+                    "Understand the concepts of smart grids.",
+                    "Learn about automation and control in power systems.",
+                    "Explore renewable energy integration.",
+                    "Work on smart grid projects."
+                ],
+                "reference": "https://www.coursera.org/learn/smart-grid"
+            },
+            "Electrical Drives": {
+                "roadmap": [
+                    "Study the fundamentals of electric drives.",
+                    "Learn about control techniques for motors.",
+                    "Explore drive applications in industrial systems.",
+                    "Work on electrical drives projects."
+                ],
+                "reference": "https://www.coursera.org/learn/electric-drives"
+            },
+            "Microgrid Systems": {
+                "roadmap": [
+                    "Understand microgrid concepts and architectures.",
+                    "Learn about energy management systems.",
+                    "Explore renewable integration in microgrids.",
+                    "Work on microgrid projects."
+                ],
+                "reference": "https://www.coursera.org/learn/microgrids"
+            },
+            "Power System Protection": {
+                "roadmap": [
+                    "Study protection schemes for power systems.",
+                    "Learn about relays and circuit breakers.",
+                    "Explore fault analysis and system reliability.",
+                    "Work on protection system projects."
+                ],
+                "reference": "https://www.coursera.org/learn/power-system-protection"
+            },
+            "Electric Vehicles": {
+                "roadmap": [
+                    "Understand electric vehicle technologies.",
+                    "Learn about battery management systems.",
+                    "Explore vehicle charging infrastructure.",
+                    "Work on electric vehicle projects."
+                ],
+                "reference": "https://www.coursera.org/learn/electric-vehicles"
+            },
+            "High Voltage Engineering": {
+                "roadmap": [
+                    "Study high voltage generation and testing.",
+                    "Learn about insulation coordination.",
+                    "Explore electrical breakdown mechanisms.",
+                    "Work on high voltage projects."
+                ],
+                "reference": "https://www.coursera.org/learn/high-voltage-engineering"
+            },
+            "Circuit Theory": {
+                "roadmap": [
+                    "Understand the fundamentals of circuit analysis.",
+                    "Learn about AC and DC circuit analysis techniques.",
+                    "Explore network theorems and applications.",
+                    "Work on circuit theory projects."
+                ],
+                "reference": "https://www.coursera.org/learn/circuit-theory"
+            },
+            "Telecommunications": {
+                "roadmap": [
+                    "Study the principles of telecommunications systems.",
+                    "Learn about modulation and coding techniques.",
+                    "Explore wireless communication technologies.",
+                    "Work on telecommunications projects."
+                ],
+                "reference": "https://www.coursera.org/learn/telecommunication"
+            },
+            "Electric Power Quality": {
+                "roadmap": [
+                    "Understand power quality concepts and metrics.",
+                    "Learn about disturbances and their effects.",
+                    "Explore power quality improvement techniques.",
+                    "Work on power quality projects."
+                ],
+                "reference": "https://www.coursera.org/learn/power-quality"
+            },
+            "Energy Storage Systems": {
+                "roadmap": [
+                    "Study various energy storage technologies.",
+                    "Learn about battery and supercapacitor systems.",
+                    "Explore applications of energy storage in power systems.",
+                    "Work on energy storage projects."
+                ],
+                "reference": "https://www.coursera.org/learn/energy-storage"
+            },
+            "Electrical Safety": {
+                "roadmap": [
+                    "Understand electrical safety standards and practices.",
+                    "Learn about hazard identification and risk assessment.",
+                    "Explore protective equipment and safety protocols.",
+                    "Engage in electrical safety projects."
+                ],
+                "reference": "https://www.coursera.org/learn/electrical-safety"
+            }
+        }
+    }
+}

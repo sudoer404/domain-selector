@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection and Roadmap</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your main CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9; /* Soft background color */
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #007bff, #00c6ff);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Styles */
+        .nav {
+            background-color: #343a40; /* Set the background color */
+            padding: 10px 0; /* Add padding to the navigation bar */
+            text-align: center; /* Center the navigation items */
+            margin-bottom: 20px; /* Space below the nav */
+        }
+
+        .nav a {
+            margin: 0 10px; /* Space between items */
+            text-decoration: none;
+            color: white; /* Link color */
+            padding: 10px 15px; /* Increased padding */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        }
+
+        .nav a.active {
+            background-color: #007BFF; /* Active link color */
+        }
+
+        .nav a:hover {
+            background-color: rgba(0, 123, 255, 0.8); /* Hover color */
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 800px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        /* Change to styled link instead of button */
+        .reference-link {
+            color: #007BFF; /* Link color */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Make it bold */
+            margin-top: 20px;
+            display: inline-block; /* Ensure it acts like a block link */
+            transition: color 0.3s; /* Smooth color change */
+        }
+
+        .reference-link:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Course Selection and Roadmap</h1>
+        <p>Choose your course and domain to get started!</p>
+    </header>
+
+    <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section class="section hero">
+            <div class="container">
+                <h2>Select Your Course and Domain</h2>
+                <p class="quote">"Learning never exhausts the mind" – Leonardo da Vinci</p>
+
+                <div class="input-group">
+                    <label for="courseSelect">Choose a Course:</label>
+                    <select id="courseSelect" onchange="populateDomains()">
+                        <option value="" disabled selected>Select a Course</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="domainSelect">Choose a Domain:</label>
+                    <select id="domainSelect" onchange="showRoadmap()">
+                        <option value="" disabled selected>Select a Domain</option>
+                    </select>
+                </div>
+
+                <div id="roadmapContainer" class="roadmap-section">
+                    <h2>Roadmap</h2>
+                    <ul id="roadmap"></ul>
+                    <a id="referenceLink" href="" target="_blank" class="reference-link">View Reference</a> <!-- Styled as link -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About the Tool Section -->
+        <section class="section about-tool">
+            <div class="container">
+                <h2>About Our Course and Domain Selection Tool</h2>
+                <p>Our platform allows you to explore various courses and their corresponding domains. Whether you're a beginner or a professional, our tool helps you create a structured learning path to success.</p>
+
+                <h3>Why Choose Our Tool?</h3>
+                <p>We focus on providing learners with the best possible experience by offering personalized roadmaps for the top 20 most in-demand domains. These domains are updated regularly based on market trends and user interests, so you always stay ahead in your learning journey.</p>
+
+                <h3>Top Domains and Flexibility</h3>
+                <p>The platform's flexibility ensures that you'll always have access to updated and relevant learning paths, reflecting the latest trends in technology and business.</p>
+
+                <p>Keep checking back to explore new and emerging domains, and adapt your learning path as the industry grows.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Course Roadmap. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
